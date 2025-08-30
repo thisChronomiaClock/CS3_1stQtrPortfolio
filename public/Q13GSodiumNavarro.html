@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+     <style>
+    body {
+      background-color: rgb(240, 250, 249);
+      color: rgb(41, 108, 151);
+    }
+    h1{
+      color: rgb(0, 99, 115);
+      font-family:'Merriweather', serif;
+    }
+    h2{
+      color: rgb(10, 147, 150);
+      font-family:'Source Sans Pro', sans-serif;
+    }
+    h3{
+      color: rgb(148, 210, 189);
+      font-family:'Source Sans Pro', sans-serif;
+    }
+    p{
+      color: rgb(51, 51, 51);
+      font-family:'Open Sans', sans-serif;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<body>
+
+    <h2> Q1 3rd Graded Exercise submitted by Aldixiander Navarro of Sodium</h2>
+    <p>Guess the number: *****</p>
+    <p> The number is between 1 and 100</p>
+    <label for="in1">Enter your guess:</label><br>
+    <input id="in1" type="number"><br>
+    <button type="button" onclick="checkIt()"> Check Number </button>
+
+    <div id="out1"> </div>
+
+    <script>
+
+       var dNumber = Math.floor(Math.random() * 100) + 1; // generates a number from 1  to 100 when the page loads
+
+        function checkIt() {
+            if (in1.value > 100 || in1.value < 1) {
+                out1.innerHTML += "<p>" + "Not valid input" + "</p>"
+            } else if (in1.value < dNumber) {
+                out1.innerHTML += "<p>" + "Higher" + "</p>"
+            } else if (in1.value > dNumber) {
+                out1.innerHTML += "<p>" + "Lower" + "</p>"
+            } else if (in1.value == dNumber) {
+                out1.innerHTML += "<p>" + "Correct Number!" + "</p>"
+            } 
+        }
+            
+        
+    </script>
+
+</body>
+
+</html>

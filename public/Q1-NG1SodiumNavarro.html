@@ -1,4 +1,6 @@
-<style>
+<!DOCTYPE html>
+<html>
+    <style>
     body {
       background-color: rgb(240, 250, 249);
       color: rgb(41, 108, 151);
@@ -21,7 +23,17 @@
     }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<body>
+
+<div id="out1"></div>
+
 <script>
-  document.write("Γειά σου κόσμε, καλώς ήρθες στην JavaScript.");
-  
+let age = 15;
+let maxAge = 80;
+let numPerDay = 10;
+let totalRequired = (numPerDay * 365) * (maxAge - age);
+out1.innerHTML += "<p>" + "You will need " + totalRequired + " bisciuts to last you until the ripe old age of " + maxAge + '.' + " </p>";
 </script>
+
+</body>
+</html>
