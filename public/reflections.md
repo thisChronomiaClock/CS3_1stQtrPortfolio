@@ -4,7 +4,7 @@
 
     1. Operators
 
-            These make up most of our code, in functions, conditions, loops etc. Arithmetic is for math, Logical is what most of coders use.
+            These make up most of our code, in functions, conditions, loops etc. Arithmetic is for math, Logical is what most of coders use for condition, assignment or other logic uses.
 
     2. If (+ else) Statements
 
@@ -15,13 +15,15 @@
 
             It's just website making.
 
+            Frame + design = Website
+
     4. Loops
 
             I nest them sometimes
 
             something will be done as long as a condition is met.
             no infinite loops or a puppy dies
-            out of for, while and do while, **for** loops come in clutch
+            out of for, while and do while, for loops come in clutch
 
     5. Basically JavaScript syntax
 
@@ -32,7 +34,7 @@
 
     1. Functions
 
-        Functions are fine. But tell me, HOW ARE THEY ABLE TO BE STORED?????
+        Functions are fine. But tell me, HOW ARE THEY ABLE TO BE STORED IN VARIABLES?????
         WHY DO I HAVE TO MEMORIZE **4** FUNCTION TYPES?????
 
     2. Other Variable declarations (anything not let or var)
@@ -76,6 +78,6 @@
 
     When an example is shown, I would put test it using VSCode or any other compiler if necessary. This would come in clutch for me. I would also memorize when an LT was to come (ofc i would)
 
-    What wouldn't work for me however, even without trying was taking hand-written notes. Reading through those notes would be tiring. You would have to analyze the outputs of handwritten code and changing the whole thing if it was wrong. I feel bad for note takers. Remember when I said I would memorize stuff and hopefully do good? Turns out there's also flaws. If I had other things to remember before CS, I would have to memorize too much, which hurts for me btw. So yea.
+    What wouldn't work for me however , even without trying was taking hand-written notes. Reading through those notes would be tiring. You would have to analyze the outputs of handwritten code and changing the whole thing if it was wrong. I feel bad for note takers. Remember when I said I would memorize stuff and hopefully do good? Turns out there's also flaws. If I had other things to remember before CS, I would have to memorize too much, which hurts for me btw. So yea.
 
 # Aaaaaaaand first quarter of this school year done means a quarter of my sanity is gone.
