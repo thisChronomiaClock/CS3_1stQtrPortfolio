@@ -1,4 +1,4 @@
-let string = "";
+let stringing = "";
 
 
 for (let i = 5; i >= 0; i--){
@@ -12,4 +12,4 @@ for (let i = 5; i >= 0; i--){
 }
    
 
-console.log(string);
+console.log(stringing);
