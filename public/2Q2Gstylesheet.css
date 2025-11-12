@@ -1,0 +1,27 @@
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    
+
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    background-color: #7e8ea8;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #FFF;
+}
+ .navbar a:hover {
+                background-color: #646e81;
+            }
+            .navbar a.active {
+                background-color: #535c6c;
+                color: white;
+            }
