@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Selectors Demo</title>
+  <style>
+    
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    
+    
+    body{
+        width: 1800px; height: 1100px;
+        border: 8px solid black;
+        padding: 43px;
+        background-color: #589b74;
+        background-image: url('https://projaqk.com/wp-content/uploads/2021/02/22521.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+    }
+    .box {
+        width: 1600px;
+        height: 120px;
+        background-color: lightblue;
+        border: 2px solid black;
+        margin: 0 auto; /* Centers the box horizontally */
+        text-align: center;
+    }
+    #main-title{
+        text-transform: uppercase;
+        word-spacing: 10px;
+        letter-spacing: -3px;
+        margin-bottom: 0;
+        text-shadow: 2px 2px 5px #a6c810;
+    }
+    .intro{
+        font-size: 1.5em;
+        margin-top: 0;
+        text-decoration: underline;
+    }
+    .container img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        float: left;
+    }
+    .container ul{
+        list-style-type: none;
+        clear: left;
+    }
+    a:hover {
+        color: orange;
+        font-weight: bold;
+    }
+    [target = "_blank"] {
+        color: red;
+        font-weight: bold;
+    }
+    [href="/internal-page"]{
+        color: green;
+        font-weight: bold;
+    }
+    /* extra CSS */
+
+    .container ul {
+
+    list-style-type: none; /* removes bullets */
+
+    clear: left; /* removes effect of float:left */
+
+    padding: 0; /* removes the spaces surrounding the li/s */
+
+    }
+
+
+    .container ul li {
+
+    width: 150px;
+
+    padding: 5px;
+
+    background-color: cornsilk;
+
+    text-align: center;
+
+    display: inline-block;
+
+    border-radius: 0px 25px;
+
+    }
+  </style>  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class= "box">
+        <h1 id="main-title">Welcome to CSS Selectors</h1>
+        <p class="intro">This is an introduction paragraph.</p>
+    </div>
+  </header>
+  <section>
+    <img src="https://wikitechy.com/css/img/css/css-selectors.png" alt="Image" style="display: block; margin: 0 auto;" />
+    <div class="container">
+      <img src="https://pixelmechanics.com.sg/wp-content/uploads/2019/04/css.jpg" />
+      <p>
+         This is a paragraph inside a container. This is a paragraph inside a container. 
+         This is a paragraph inside a container. This is a paragraph inside a container. 
+         This is a paragraph inside a container. This is a paragraph inside a container. 
+         This is a paragraph inside a container. This is a paragraph inside a container. 
+      </p>
+      <ul>
+        <li class="highlight">First item</li>
+        <li>Second item</li>
+        <li class="highlight">Third item</li>
+      </ul>
+      <img src="https://pixelmechanics.com.sg/wp-content/uploads/2019/04/css.jpg" />
+      <p>
+        This is another paragraph inside a container. This is another paragraph inside a container.
+        This is another paragraph inside a container. This is another paragraph inside a container.
+        This is another paragraph inside a container. This is another paragraph inside a container.
+      </p>
+    </div>
+  </section>
+  <footer>
+    <div class="box">
+        <a href="https://example.com" target="_blank">External Link</a>
+        <a href="/internal-page">Internal Link</a>
+        <p> Copyright &copy; AL Mendoza</p>
+        <p>
+        A Link to our sponsor <a href="#">link</a>. Hover over the link to see the effect.
+        </p>
+    </div>
+  </footer>
+</body>
+</html>
